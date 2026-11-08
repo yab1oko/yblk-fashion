@@ -117,9 +117,10 @@ public class ClothingRenderLayer
         }
 
         boolean useSlim = "slim".equals(player.getModelName());
+        boolean hideHead = ClothingRenderSkip.hideHeadGarments(player);
 
         ItemStack head = player.getItemBySlot(EquipmentSlot.HEAD);
-        if (head.getItem() instanceof ClothingItem headWear) {
+        if (!hideHead && head.getItem() instanceof ClothingItem headWear) {
             if (headWear.getClothingType() == ClothingType.HAT) {
                 renderHat(poseStack, buffer, light, player, headWear);
             } else if (headWear.getClothingType() == ClothingType.COWBOY_HAT) {
@@ -357,8 +358,11 @@ public class ClothingRenderLayer
             model.body.visible = false;
             model.leftArm.visible = false;
             model.rightArm.visible = false;
-            model.head.visible = true;
-            drawClothing(poseStack, buffer, light, model, tex, false);
+            // Hood head mesh clips the camera in Features RFP hide-head.
+            if (!ClothingRenderSkip.hideHeadGarments(player)) {
+                model.head.visible = true;
+                drawClothing(poseStack, buffer, light, model, tex, false);
+            }
         } else {
             model = useSlim ? tshirtSlimModel() : tshirtWideModel();
             tex = tshirtTexture(clothing);

@@ -192,8 +192,10 @@ public class ClothingTearLayer
             model.body.visible = false;
             model.leftArm.visible = false;
             model.rightArm.visible = false;
-            model.head.visible = true;
-            drawTears(poseStack, buffer, light, model, tearTex, alpha, false);
+            if (!ClothingRenderSkip.hideHeadGarments(player)) {
+                model.head.visible = true;
+                drawTears(poseStack, buffer, light, model, tearTex, alpha, false);
+            }
         } else {
             model = useSlim ? tshirtSlimModel() : tshirtWideModel();
             tearTex = tshirtTearTexture(clothing);

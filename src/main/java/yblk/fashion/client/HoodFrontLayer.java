@@ -50,6 +50,10 @@ public class HoodFrontLayer
         if (ClothingRenderSkip.localFirstPersonWorld(player)) {
             return;
         }
+        // RFP hide-head: do not redraw the skin hat front under an open hood.
+        if (ClothingRenderSkip.hideHeadGarments(player)) {
+            return;
+        }
         if (GhillieCover.hidesExtras(player)) {
             return;
         }

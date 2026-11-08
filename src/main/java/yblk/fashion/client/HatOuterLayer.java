@@ -51,6 +51,9 @@ public class HatOuterLayer
         if (ClothingRenderSkip.localFirstPersonWorld(player)) {
             return;
         }
+        if (ClothingRenderSkip.hideHeadGarments(player)) {
+            return;
+        }
 
         // Balaclava covers the whole head — no bangs strip under eye holes.
         if (ClothingLayerHider.wearingBalaclava(player)) {

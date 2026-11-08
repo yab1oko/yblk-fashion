@@ -44,6 +44,9 @@ public class GasMaskLayer
         if (player.isInvisible() || ClothingRenderSkip.localFirstPersonWorld(player)) {
             return;
         }
+        if (ClothingRenderSkip.hideHeadGarments(player)) {
+            return;
+        }
         if (GhillieCover.hidesExtras(player) || ClothingLayerHider.hidesFaceCosmetics(player)) {
             return;
         }
