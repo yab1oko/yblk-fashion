@@ -1,0 +1,25 @@
+﻿{
+  "replace": false,
+  "values": [
+    "fashion:white_sneakers",
+    "fashion:light_gray_sneakers",
+    "fashion:gray_sneakers",
+    "fashion:black_sneakers",
+    "fashion:brown_sneakers",
+    "fashion:red_sneakers",
+    "fashion:orange_sneakers",
+    "fashion:yellow_sneakers",
+    "fashion:lime_sneakers",
+    "fashion:green_sneakers",
+    "fashion:cyan_sneakers",
+    "fashion:light_blue_sneakers",
+    "fashion:blue_sneakers",
+    "fashion:purple_sneakers",
+    "fashion:magenta_sneakers",
+    "fashion:pink_sneakers",
+    "fashion:black_shoes",
+    "fashion:brown_shoes",
+    "fashion:light_brown_shoes",
+    "fashion:ghillie_boots"
+  ]
+}

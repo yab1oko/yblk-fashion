@@ -1,0 +1,24 @@
+﻿{
+  "replace": false,
+  "values": [
+    "fashion:white_tshirt",
+    "fashion:light_gray_tshirt",
+    "fashion:gray_tshirt",
+    "fashion:black_tshirt",
+    "fashion:brown_tshirt",
+    "fashion:red_tshirt",
+    "fashion:orange_tshirt",
+    "fashion:yellow_tshirt",
+    "fashion:lime_tshirt",
+    "fashion:green_tshirt",
+    "fashion:cyan_tshirt",
+    "fashion:light_blue_tshirt",
+    "fashion:blue_tshirt",
+    "fashion:purple_tshirt",
+    "fashion:magenta_tshirt",
+    "fashion:pink_tshirt",
+    "fashion:white_tank_top",
+    "fashion:black_tank_top",
+    "fashion:ghillie_top"
+  ]
+}

@@ -1,0 +1,13 @@
+﻿{
+  "replace": false,
+  "values": [
+    "#fashion:clothing/head",
+    "#fashion:clothing/chest",
+    "#fashion:clothing/legs",
+    "#fashion:clothing/feet",
+    "#fashion:clothing/outerwear",
+    "#fashion:clothing/vest",
+    "#fashion:clothing/mask",
+    "#fashion:clothing/body"
+  ]
+}

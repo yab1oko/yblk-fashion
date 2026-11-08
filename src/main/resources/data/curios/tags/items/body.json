@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "fashion:black_clutch",
+    "fashion:blue_clutch",
+    "fashion:orange_clutch",
+    "fashion:yellow_clutch",
+    "fashion:purple_sports_bag",
+    "fashion:red_sports_bag",
+    "fashion:gray_sports_bag",
+    "fashion:green_sports_bag",
+    "fashion:black_backpack",
+    "fashion:red_backpack",
+    "fashion:green_backpack"
+  ]
+}

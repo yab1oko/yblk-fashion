@@ -1,0 +1,4 @@
+{
+  "entities": ["npcstudio:npc"],
+  "slots": ["mask", "body", "outerwear", "vest", "pants"]
+}

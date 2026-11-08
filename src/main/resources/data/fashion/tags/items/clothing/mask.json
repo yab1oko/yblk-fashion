@@ -1,0 +1,11 @@
+﻿{
+  "replace": false,
+  "values": [
+    "fashion:black_bandana",
+    "fashion:blue_bandana",
+    "fashion:red_bandana",
+    "fashion:black_balaclava",
+    "fashion:white_balaclava",
+    "fashion:nvg"
+  ]
+}

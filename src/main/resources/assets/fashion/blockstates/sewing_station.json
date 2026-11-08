@@ -1,0 +1,12 @@
+{
+  "variants": {
+    "facing=north,part=main": { "model": "fashion:block/sewing_station" },
+    "facing=south,part=main": { "model": "fashion:block/sewing_station", "y": 180 },
+    "facing=west,part=main":  { "model": "fashion:block/sewing_station", "y": 270 },
+    "facing=east,part=main":  { "model": "fashion:block/sewing_station", "y": 90 },
+    "facing=north,part=side": { "model": "fashion:block/sewing_station_side" },
+    "facing=south,part=side": { "model": "fashion:block/sewing_station_side", "y": 180 },
+    "facing=west,part=side":  { "model": "fashion:block/sewing_station_side", "y": 270 },
+    "facing=east,part=side":  { "model": "fashion:block/sewing_station_side", "y": 90 }
+  }
+}
